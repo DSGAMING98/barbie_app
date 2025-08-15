@@ -1,0 +1,9 @@
+/* Extra flair without heavy assets */
+button[kind="secondary"]{
+  border-radius: 999px !important;
+}
+
+/* Streamlit inputs polish */
+.stSelectbox, .stSegmentedControl, .stTextInput, .stColorPicker {
+  --border: rgba(0,0,0,.08);
+}
